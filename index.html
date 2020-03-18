@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Vírus</title>
+
+  
+<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,700&display=swap" rel="stylesheet">
+
+
+    <script src="api.js"></script>
+    <style>
+        div.circle{
+            border-radius: 150px;
+            height: 200px;
+            width : 200px;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            max-width: 50%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;       
+        }
+
+        html,body{
+            background-color: brown;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin-bottom: 200px;
+            font-family: 'Baloo Chettan 2', cursive;
+            
+        }
+
+        div#country{
+            color: white;
+            font-size: larger;
+        }
+        div#dados{
+            width:100%;
+            display:flex;
+            justify-content: center;
+        }
+        div.data{
+            animation-duration: 4s;
+        }
+        div#label{
+            font-weight: bold;
+        }
+        #spinner:not([hidden]) {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        #spinner::after {
+            content: "";
+            width: 80px;
+            height: 80px;
+            border: 2px solid #f3f3f3;
+            border-top: 3px solid #f25a41;
+            border-radius: 100%;
+            will-change: transform;
+            animation: spin 1s infinite linear
+        }
+  
+        @keyframes spin {
+            from {
+            transform: rotate(0deg);
+            }
+            to {
+            transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="country"><h1>Corona Vírus no Brasil</h1></div>
+    <div id="dados">
+        <div id="cases_registered" class="circle"><div id="label">Casos Registrados</div><div class="data" id="data_cases_registered"><div id="spinner"></div></div></div>
+        <div id="cases_actives" class="circle"><div id="label">Casos Ativos</div><div class="data" id="data_cases_actives"><div id="spinner"></div></div></div>
+        <div id="deaths" class="circle"><div id="label">Mortes</div><div class="data" id="data_deaths"><div id="spinner"></div></div></div>
+        <div id="recovered" class="circle"><div id="label">Recuperados</div><div class="data" id="data_recovered"><div id="spinner"></div></div></div>
+    </div>
+    <div id="referencia"></div>
+    
+</body>
+</html>
