@@ -29,8 +29,7 @@ div#country{
 div#dados{
     width:100%;
     display:flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 div.data{
     animation-duration: 4s;
@@ -68,10 +67,11 @@ div#label{
     }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 1280px){
     html,body{
         justify-content: start;
         margin-top:0px;
+        text-align: center;
     }
     div#dados{
         flex-direction: column;
@@ -80,5 +80,7 @@ div#label{
     .circle{
         margin-top: 10px;
         margin-left: 0px !important;
+        width: 170px !important;
+        height: 170px !important;
     }
 }
