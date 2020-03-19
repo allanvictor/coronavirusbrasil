@@ -8,18 +8,19 @@ div.circle{
     max-width: 50%;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;       
+}
+div.circle:not(:first-child) {
+    margin-left: 50px;
 }
 html,body{
     background-color: brown;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 100%;
     margin-bottom: 200px;
     font-family: 'Baloo Chettan 2', cursive;
-    
+    justify-content: center;
 }
 div#country{
     color: white;
@@ -29,6 +30,7 @@ div#dados{
     width:100%;
     display:flex;
     justify-content: center;
+    
 }
 div.data{
     animation-duration: 4s;
@@ -63,5 +65,20 @@ div#label{
     }
     to {
     transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 640px){
+    html,body{
+        justify-content: start;
+        margin-top:0px;
+    }
+    div#dados{
+        flex-direction: column;
+        align-items: center;
+    }
+    .circle{
+        margin-top: 10px;
+        margin-left: 0px !important;
     }
 }
