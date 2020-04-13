@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.321a02f7.chunk.css",
-    "main.js": "/static/js/main.95079bc4.chunk.js",
-    "main.js.map": "/static/js/main.95079bc4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e7310a31.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e7310a31.js.map",
-    "static/js/2.568fff9c.chunk.js": "/static/js/2.568fff9c.chunk.js",
-    "static/js/2.568fff9c.chunk.js.map": "/static/js/2.568fff9c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3ac630009b0ac7110b96521571b507e8.js": "/precache-manifest.3ac630009b0ac7110b96521571b507e8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.321a02f7.chunk.css.map": "/static/css/main.321a02f7.chunk.css.map",
-    "static/js/2.568fff9c.chunk.js.LICENSE.txt": "/static/js/2.568fff9c.chunk.js.LICENSE.txt",
-    "static/media/brazil_map.3c4131b3.svg": "/static/media/brazil_map.3c4131b3.svg"
+    "main.css": "/coronavirusbrasil/static/css/main.321a02f7.chunk.css",
+    "main.js": "/coronavirusbrasil/static/js/main.4df658a7.chunk.js",
+    "main.js.map": "/coronavirusbrasil/static/js/main.4df658a7.chunk.js.map",
+    "runtime-main.js": "/coronavirusbrasil/static/js/runtime-main.98682a3b.js",
+    "runtime-main.js.map": "/coronavirusbrasil/static/js/runtime-main.98682a3b.js.map",
+    "static/js/2.d98081cc.chunk.js": "/coronavirusbrasil/static/js/2.d98081cc.chunk.js",
+    "static/js/2.d98081cc.chunk.js.map": "/coronavirusbrasil/static/js/2.d98081cc.chunk.js.map",
+    "index.html": "/coronavirusbrasil/index.html",
+    "precache-manifest.a3ab509baea355f7f1f27fe7e9cbd08a.js": "/coronavirusbrasil/precache-manifest.a3ab509baea355f7f1f27fe7e9cbd08a.js",
+    "service-worker.js": "/coronavirusbrasil/service-worker.js",
+    "static/css/main.321a02f7.chunk.css.map": "/coronavirusbrasil/static/css/main.321a02f7.chunk.css.map",
+    "static/js/2.d98081cc.chunk.js.LICENSE.txt": "/coronavirusbrasil/static/js/2.d98081cc.chunk.js.LICENSE.txt",
+    "static/media/brazil_map.3c4131b3.svg": "/coronavirusbrasil/static/media/brazil_map.3c4131b3.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e7310a31.js",
-    "static/js/2.568fff9c.chunk.js",
+    "static/js/runtime-main.98682a3b.js",
+    "static/js/2.d98081cc.chunk.js",
     "static/css/main.321a02f7.chunk.css",
-    "static/js/main.95079bc4.chunk.js"
+    "static/js/main.4df658a7.chunk.js"
   ]
 }
