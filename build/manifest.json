@@ -1,0 +1,25 @@
+{
+  "short_name": "Corona Brasil",
+  "name": "Corona Vírus Brasil",
+  "icons": [
+    {
+      "src": "apple-icon-60x60",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#a52a2a",
+  "background_color": "#a52a2a"
+}
