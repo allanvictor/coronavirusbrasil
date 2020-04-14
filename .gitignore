@@ -1,2 +1,19 @@
-node_modules
-build
+#dependency
+/node_modules
+#production
+/build
+#All log files
+*.log
+#yarn files
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+#npm files
+npm-debug.log*
+.npm
+#dotenv environment variables file
+.env
+.env.test
+#Linux trash folder which might appear on any partition or disk
+.Trash-*
