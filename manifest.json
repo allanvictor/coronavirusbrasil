@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/coronavirusbrasil",
+  "start_url": "/coronavirusbrasil/",
   "display": "standalone",
   "theme_color": "#a52a2a",
   "background_color": "#a52a2a"
