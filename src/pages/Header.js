@@ -5,7 +5,7 @@ import PwaButton from '../components/PwaButton';
 const Header = (props) => {
   
   return (
-    <div id='main-header'>
+    <div className='main-header'>
         <div className="header-content">
           <h1>{ props.title }</h1>          
         </div>

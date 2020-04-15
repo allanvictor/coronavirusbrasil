@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const MenuItem = styled(Link)`
-  
+  font-family: 'Roboto', sans-serif;
   position: relative;
   display: inline-block;
   margin: 15px 0px;
