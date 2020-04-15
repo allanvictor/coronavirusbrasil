@@ -1,9 +1,8 @@
 import React from 'react';  
 import styled from 'styled-components';
 
-import '../assets/css/widget.css';
-
 export const Box = styled.div`
+  font-family: 'Roboto', sans-serif;
   width: 155px;
   height: 55px;
   margin-top: 30px;
