@@ -3,30 +3,29 @@ import styled from 'styled-components';
 
 export const Box = styled.div`
   font-family: 'Roboto', sans-serif;
-  width: 155px;
-  height: 55px;
+  width: 185px;
+  height: 100px;
   margin-top: 30px;
   background-color: #fcfdfd;
   border-radius: 9px;
   padding: 25px;
   padding-right: 30px;
-  box-shadow: 0px 31px 35px -26px #080c21;
   display:flex;
   flex-direction: column;
   justify-content: center;
 `;
 
 export const Title = styled.div`
-  font-size: 13pt;
+  font-size: 12pt;
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 5px;
-  color: rgba(0,0,0,0.7);
+  color: brown;
   text-align: center;
 `;
 
 export const Value= styled.div`
-  font-size: 25pt;
+  font-size: 20pt;
   color: rgba(0,0,0,0.9);
   font-weight: 100;
   text-align: center;
