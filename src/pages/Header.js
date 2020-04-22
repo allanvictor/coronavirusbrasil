@@ -1,7 +1,6 @@
 import React from 'react';  
 import '../assets/css/header.css';
 import Menu from '../components/Menu';
-import PwaButton from '../components/PwaButton';
 const Header = (props) => {
   
   return (
@@ -10,7 +9,6 @@ const Header = (props) => {
           <h1>{ props.title }</h1>          
         </div>
         <Menu />
-        <div className="pwabutton"><PwaButton /></div>
     </div>
   );
 }
