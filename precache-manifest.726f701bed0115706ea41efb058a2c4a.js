@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ad698f072e16a4ff642d2aed2353109",
+    "revision": "4197b25518a3636d5ff4399eab84600c",
     "url": "/coronavirusbrasil/index.html"
   },
   {
-    "revision": "5d13b7a3e8516b80ba16",
-    "url": "/coronavirusbrasil/static/css/main.55194fb7.chunk.css"
+    "revision": "944209de6400c145adc7",
+    "url": "/coronavirusbrasil/static/css/main.4194d62b.chunk.css"
   },
   {
-    "revision": "c7717031fdbee7c4cc5a",
-    "url": "/coronavirusbrasil/static/js/2.d64a7a9c.chunk.js"
+    "revision": "89bcb4f926839cb182c6",
+    "url": "/coronavirusbrasil/static/js/2.a064412e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/coronavirusbrasil/static/js/2.d64a7a9c.chunk.js.LICENSE.txt"
+    "url": "/coronavirusbrasil/static/js/2.a064412e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d13b7a3e8516b80ba16",
-    "url": "/coronavirusbrasil/static/js/main.d939b349.chunk.js"
+    "revision": "944209de6400c145adc7",
+    "url": "/coronavirusbrasil/static/js/main.8e012d87.chunk.js"
   },
   {
     "revision": "7905c810b48e4bb8ef2d",
